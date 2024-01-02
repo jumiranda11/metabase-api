@@ -1,3 +1,6 @@
+import getpass
+import requests
+
 class Metabase_API():
 
   def __init__(self, domain, email, password=None, basic_auth=False):
